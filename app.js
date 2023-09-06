@@ -26,21 +26,21 @@ var condetails = new mongoose.Schema({
 
   app.get('/', (req, res)=>{
 
-    res.sendFile(path.join(__dirname ,'../portfolio','/views','home.html'));
+    res.sendFile(path.join(__dirname ,'../views','home.html'));
 })
 
 app.get('/aboutme', (req, res)=>{ 
 
-    res.sendFile(path.join(__dirname ,'../portfolio','/views','aboutme.html'));
+    res.sendFile(path.join(__dirname ,'../views','aboutme.html'));
 })
 
 app.get('/projects', (req, res)=>{ 
 
-    res.sendFile(path.join(__dirname ,'../portfolio','/views','projects.html'));
+    res.sendFile(path.join(__dirname ,'../views','projects.html'));
 })
 app.get('/contact', (req, res)=>{ 
 
-    res.sendFile(path.join(__dirname ,'../portfolio','/views','contact.html'));
+    res.sendFile(path.join(__dirname ,'../views','contact.html'));
 })
 
 // function con(){
