@@ -7,6 +7,7 @@ const { Script } = require("vm");
 const bodyparser = require("body-parser", { UserNewUrlparser: true });
 mongoose.connect("mongodb+srv://raviteja_2674:Raviteja_2674@raviteja.4iejfqt.mongodb.net/portfoliodetails?retryWrites=true&w=majority"); // FoodProject will be the database name // changed to ip adress from localhost because of updatee
 const port = 40;
+const host='127.0.0.227';
 
 
 var condetails = new mongoose.Schema({
